@@ -1,0 +1,62 @@
+{
+  "robots": [
+    {
+      "x": 1,
+      "y": 1,
+      "_prev_x": 1,
+      "_prev_y": 1,
+      "_prev_orientation": 0,
+      "objects": {},
+      "_orientation": 0,
+      "_is_leaky": true,
+      "_trace_history": [],
+      "_trace_style": "default",
+      "_trace_color": "seagreen",
+      "__id": 23,
+      "model": "classic",
+      "possible_initial_positions": [[1, 1]]
+    }
+  ],
+  "small_tiles": false,
+  "rows": 10,
+  "cols": 10,
+  "flags": [
+    [1, 10],
+    [10, 1],
+    [10, 10]
+  ],
+  "walls": {
+    "1,1": ["north"],
+    "2,1": ["north"],
+    "3,1": ["north"],
+    "4,1": ["north"],
+    "5,1": ["north"],
+    "6,1": ["north"],
+    "7,1": ["north"],
+    "8,1": ["north"],
+    "9,1": ["north"],
+    "1,2": ["east"],
+    "9,2": ["east"],
+    "1,3": ["east"],
+    "9,3": ["east"],
+    "1,4": ["east"],
+    "9,4": ["east"],
+    "1,5": ["east"],
+    "9,5": ["east"],
+    "1,6": ["east"],
+    "9,6": ["east"],
+    "1,7": ["east"],
+    "9,7": ["east"],
+    "1,8": ["east"],
+    "9,8": ["east"],
+    "1,9": ["east"],
+    "9,9": ["east", "north"],
+    "2,9": ["north"],
+    "3,9": ["north"],
+    "4,9": ["north"],
+    "5,9": ["north"],
+    "6,9": ["north"],
+    "7,9": ["north"],
+    "8,9": ["north"]
+  }
+}

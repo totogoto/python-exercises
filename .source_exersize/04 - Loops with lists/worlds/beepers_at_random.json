@@ -1,0 +1,35 @@
+{
+  "robots": [
+    {
+      "x": 1,
+      "y": 1,
+      "_prev_x": 1,
+      "_prev_y": 1,
+      "_prev_orientation": 0,
+      "objects": {},
+      "_orientation": 0,
+      "_is_leaky": true,
+      "_trace_history": [],
+      "_trace_style": "default",
+      "_trace_color": "seagreen",
+      "__id": 23,
+      "model": "classic",
+      "possible_initial_positions": [[1, 1]]
+    }
+  ],
+  "small_tiles": false,
+  "rows": 10,
+  "cols": 10,
+  "objects": {
+    "1,6": { "beeper": 1 },
+    "2,3": { "beeper": 2 },
+    "3,9": { "beeper": 3 },
+    "4,5": { "beeper": 4 },
+    "5,7": { "beeper": 5 },
+    "6,2": { "beeper": 6 },
+    "7,4": { "beeper": 7 },
+    "8,8": { "beeper": 8 },
+    "9,3": { "beeper": 9 },
+    "10,5": { "beeper": 10 }
+  }
+}

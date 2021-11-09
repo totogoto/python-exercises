@@ -1,0 +1,28 @@
+{
+  "robots": [
+    {
+      "x": 1,
+      "y": 1,
+      "_prev_x": 1,
+      "_prev_y": 1,
+      "_prev_orientation": 0,
+      "objects": {},
+      "_orientation": 0,
+      "_is_leaky": true,
+      "_trace_history": [],
+      "_trace_style": "default",
+      "_trace_color": "seagreen",
+      "__id": 23,
+      "model": "classic"
+    }
+  ],
+  "small_tiles": false,
+  "rows": 1,
+  "cols": 10,
+  "objects": {
+    "2,1": {"daisy": 10},
+    "3,1": {"daisy": 10},
+    "4,1": {"daisy": 10},
+    "5,1": {"daisy": 10}  
+  }
+}

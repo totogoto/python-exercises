@@ -1,0 +1,16 @@
+{
+  "robots": [
+    {
+      "x": 10,
+      "y": 2,
+      "_orientation": 0,
+      "_trace_style": "default",
+      "_trace_color": "seagreen"
+    }
+  ],
+  "border_color": "gray",
+  "grid_line_color": "lightgray",
+  "small_tiles": false,
+  "rows": 2,
+  "cols": 10
+}

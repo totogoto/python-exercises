@@ -1,0 +1,33 @@
+{
+  "robots": [
+    {
+      "x": 1,
+      "y": 1,
+      "_prev_x": 1,
+      "_prev_y": 1,
+      "_prev_orientation": 0,
+      "objects": {},
+      "_orientation": 0,
+      "_is_leaky": true,
+      "_trace_history": [],
+      "_trace_style": "default",
+      "_trace_color": "seagreen",
+      "__id": 23,
+      "model": "classic",
+      "possible_initial_positions": [[1, 1]]
+    }
+  ],
+  "small_tiles": false,
+  "rows": 10,
+  "cols": 9,
+  "objects": {
+    "1,5": { "apple":  4},
+    "2,5": { "apple": 2 },
+    "3,5": { "apple": 3 },
+    "4,5": { "apple": 1 },
+    "5,5": { "apple": 5 },
+    "6,5": { "apple": 4 },
+    "7,5": { "apple": 1 },
+    "8,5": { "apple": 8 }
+  }
+}

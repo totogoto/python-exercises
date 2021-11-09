@@ -1,0 +1,11 @@
+{"backend_state":"init","kernel":"python3","kernel_state":"idle","kernel_usage":{"cpu":0,"memory":0},"metadata":{"language_info":{"codemirror_mode":{"name":"ipython","version":3},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython3","version":"3.8.10"}},"trust":false,"type":"settings"}
+{"cell_type":"code","exec_count":3,"id":"88523a","input":"# Your code here\nprint(\"hi\")","output":{"0":{"name":"stdout","output_type":"stream","text":"hi\n"}},"pos":5,"type":"cell"}
+{"cell_type":"code","exec_count":4,"id":"55bbb4","input":"print(\"Hello Python!\")","output":{"0":{"name":"stdout","output_type":"stream","text":"Hello Python!\n"}},"pos":1,"type":"cell"}
+{"cell_type":"code","exec_count":5,"id":"75493f","input":"print(\"aa\")","output":{"0":{"name":"stdout","output_type":"stream","text":"aa\n"}},"pos":4,"type":"cell"}
+{"cell_type":"code","id":"01e39a","input":"","pos":6,"type":"cell"}
+{"cell_type":"code","id":"a8f06d","input":"","pos":7,"type":"cell"}
+{"cell_type":"markdown","id":"2cbadf","input":"Welcome to your first __Python notebook__\n\nA notebook is a mix of code and documentation \n\nThis cell that you are reading right now is a markdown cell. Go ahead and press Shift+Enter to execute the cells one by one\n","pos":0,"type":"cell"}
+{"cell_type":"markdown","id":"8c3858","input":"The Cell Above was python code - if you click on that cell and press Shift+Enter. You should see your first python code in action\n\nGo ahead feel free to change the message from Hello World to something else","pos":2,"type":"cell"}
+{"cell_type":"markdown","id":"b350e2","input":"__Challenge__ In the cell below, you will find an empty print() statement \n\nCan you add atleast 2 print statements that can print out multiple messages?\nRemember to wrap each message in double quotes (\")","pos":3,"type":"cell"}
+{"id":0,"time":1636200208004,"type":"user"}
+{"last_load":1636200208377,"type":"file"}

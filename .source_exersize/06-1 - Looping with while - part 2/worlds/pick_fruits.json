@@ -1,0 +1,12 @@
+{
+  "robots": [
+    {
+      "x": 1,
+      "y": 1,
+      "_orientation": 0
+    }
+  ],
+  "rows": 10,
+  "cols": 10
+ 
+}
