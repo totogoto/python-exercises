@@ -1,5 +1,5 @@
 import random
-from ttgtcanvas2 import get_robo_builder
+from ottopy import get_robo_builder
 
 def around_the_room(world):
     for x in range(7):

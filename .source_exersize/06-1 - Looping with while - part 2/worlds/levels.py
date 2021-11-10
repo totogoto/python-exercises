@@ -1,4 +1,4 @@
-from ttgtcanvas2 import get_robo_builder
+from ottopy import get_robo_builder
 import random
 import math
 
