@@ -1,6 +1,20 @@
 import random
 from ottopy import get_robo_builder
 
+def hello(world):
+    for x in range(8):
+        world.add_flag(2+x,1)
+    world.add_flag_count_goal(8)
+    world.add_home_goal(10, 1)
+
+def hello_pick(world):
+    for x in range(8):
+        world.add_flag(2+x,1)
+    world.add_flag_count_goal(8)
+    world.add_object(10, 1, 'apple', 1)
+    world.add_pick_obj_goal(10, 1, 'apple', 1)
+
+
 def around_the_room(world):
     for x in range(7):
         world.add_flag(2+x,1)
@@ -37,5 +51,7 @@ get_robo = get_robo_builder(levels={
     'jump_loop': jump_loop,
     'pick_star': pick_star,
     'pick_flowers': pick_flowers,
-    'take_5_and_put_5': take_5_and_put_5
+    'take_5_and_put_5': take_5_and_put_5,
+    'hello':hello,
+    'hello_pick': hello_pick
 })
