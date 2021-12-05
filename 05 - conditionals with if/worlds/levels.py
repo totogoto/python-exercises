@@ -126,6 +126,10 @@ import random
 
 def count_carrots(world):
     nb_carrot = 0
+    nb_carrot = 0
+    nb_apple = 0
+    h = 12
+    w = 12
     for x in range(3, 9):
         choice = random.randint(1,2)
         if choice == 1:
@@ -240,11 +244,19 @@ def flowers(world):
 
 def multi_flowers(world):
     world.add_object(2, 1,'strawberry', 20)
+    count = 0
     for x in range(3,12,3):
         if random.randrange(2):
+            count+=1
             world.add_object( x+1, 1,'daisy', 1)
             world.add_drop_obj_goal( x+2, 1, 'strawberry',1)
             world.add_drop_obj_goal( x+3, 1, 'strawberry',1)
+    if count == 0:
+            x = random.choice([3,6,9])
+            world.add_object( x+1, 1,'daisy', 1)
+            world.add_drop_obj_goal( x+2, 1, 'strawberry',1)
+            world.add_drop_obj_goal( x+3, 1, 'strawberry',1)
+
             
 
 get_robo = get_robo_builder(levels={
