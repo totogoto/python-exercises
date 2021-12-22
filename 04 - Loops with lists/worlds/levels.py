@@ -64,6 +64,21 @@ def spiral(world):
         for x in range(s+2,9-s):
             world.add_wall(s+1, x+1, "east")
         world.add_wall(5,5, "north")
+
+def beepers(world):
+    l = [2,1,0,0,1,0,0,3,4]
+    for x in range(9):
+        if l[x] > 0:
+            world.add_object( x+2, 1,'beeper', l[x])
+            world.add_pick_obj_goal( x+2, 1, 'beeper',l[x])
+        else:
+            world.add_flag(x+2, 1)
+        
+
+def heights(world):
+    for x in range(1, 10):
+        for y in range(2,10):
+            world.add_wall(x,y,"east")
     
 get_robo = get_robo_builder(levels={
     'jump': jump,
@@ -75,7 +90,9 @@ get_robo = get_robo_builder(levels={
     "spiral": spiral,
     "random_pick": random_pick,
     "random_location": random_location,
-    "snake": snake
+    "snake": snake,
+    "beepers": beepers,
+    "heights": heights
     
 },
                             

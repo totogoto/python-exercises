@@ -216,22 +216,7 @@ def flags(world):
             world.add_pick_obj_goal( x+1, 1, 'beeper',1)
         else:
             world.add_flag(x+1, 1)
-        
 
-def beepers(world):
-    l = [2,1,0,0,1,0,0,3,4]
-    for x in range(9):
-        if l[x] > 0:
-            world.add_object( x+2, 1,'beeper', l[x])
-            world.add_pick_obj_goal( x+2, 1, 'beeper',l[x])
-        else:
-            world.add_flag(x+2, 1)
-        
-
-def heights(world):
-    for x in range(1, 10):
-        for y in range(2,10):
-            world.add_wall(x,y,"east")
 
 def flowers(world):
     world.add_object(2, 1,'strawberry', 10)
@@ -265,8 +250,6 @@ get_robo = get_robo_builder(levels={
     "pick_fruits": pick_fruits,
     "multiple": multiple,
     "flags": flags,
-    "beepers": beepers,
-    "heights": heights,
     "flowers": flowers,
     "multi_flowers": multi_flowers   
 })
