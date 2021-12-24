@@ -124,6 +124,15 @@ import random
 
 
 
+def simple(world):
+    for x in range(9):
+        choice = random.randint(0, 1)
+        if choice == 0:
+            world.add_object(x+2,1, "apple", 1)
+            world.add_pick_obj_goal(x+2,1, "apple", 1)
+        else:
+            world.add_object(x+2,1, random.choice(["banana", "daisy", "star", "orange", "carrot"]), 1)
+
 def count_carrots(world):
     nb_carrot = 0
     nb_carrot = 0
@@ -251,7 +260,8 @@ get_robo = get_robo_builder(levels={
     "multiple": multiple,
     "flags": flags,
     "flowers": flowers,
-    "multi_flowers": multi_flowers   
+    "multi_flowers": multi_flowers,
+    "simple": simple
 })
 
 
