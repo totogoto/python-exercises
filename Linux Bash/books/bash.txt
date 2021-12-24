@@ -1,0 +1,8 @@
+Bash is a Unix shell and command language written by Brian Fox for the GNU Project as a free software replacement for the Bourne shell.
+
+First released in 1989,[12] it has been used as the default login shell for most Linux distributions.
+A version is also available for Windows 10 via the Windows Subsystem for Linux.
+
+The shell's name is an acronym for Bourne Again Shell, 
+
+SOURCE: https://en.wikipedia.org/wiki/Bash_(Unix_shell)
