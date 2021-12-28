@@ -1,6 +1,6 @@
 #!/bin/bash
 
-pip install ottopy==0.1.19
+pip install ottopy==0.1.21
 jupyter nbextension install ottopy --user --py
 jupyter nbextension enable ottopy --user --py
 
