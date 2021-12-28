@@ -17,6 +17,17 @@ def beepers_on_rise(world):
         for y in range(2,12):
             world.add_wall(x,y,"east")
 
+    world.add_pick_obj_goal(1,2, 'beeper', 1)
+    world.add_pick_obj_goal(2,3, 'beeper', 1)
+    world.add_pick_obj_goal(3,4, 'beeper', 1)
+    world.add_pick_obj_goal(4,5, 'beeper', 1)
+    world.add_pick_obj_goal(5,6, 'beeper', 1)
+    world.add_pick_obj_goal(6,7, 'beeper', 1)
+    world.add_pick_obj_goal(7,8, 'beeper', 1)
+    world.add_pick_obj_goal(8,9, 'beeper', 1)
+    world.add_pick_obj_goal(9,10, 'beeper', 1)
+    world.add_pick_obj_goal(10, 11, 'beeper', 1)
+
 def flags_at_random(world):
     for x in range(1, 10):
         for y in range(2,10):
@@ -33,6 +44,7 @@ def spiral(world):
         for x in range(s+2,9-s):
             world.add_wall(s+1, x+1, "east")
         world.add_wall(5,5, "north")
+    world.add_flag_count_goal(18)
     
 get_robo = get_robo_builder(levels={
     'corners': corners,
