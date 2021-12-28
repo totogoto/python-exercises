@@ -24,11 +24,22 @@ def flags_at_random(world):
     for x in range(1, 10):
         for y in range(2,10):
             world.add_wall(x,y,"east")
+    world.add_flag_count_goal(10)
 
 def beepers_at_random(world):
     for x in range(1, 10):
         for y in range(2,10):
             world.add_wall(x,y,"east")
+    world.add_pick_obj_goal(1,6,'beeper', 1)
+    world.add_pick_obj_goal(2,3,'beeper', 2)
+    world.add_pick_obj_goal(3,9,'beeper', 3)
+    world.add_pick_obj_goal(4,5,'beeper', 4)
+    world.add_pick_obj_goal(5,7,'beeper', 5)
+    world.add_pick_obj_goal(6,2,'beeper', 6)
+    world.add_pick_obj_goal(7,4,'beeper', 7)
+    world.add_pick_obj_goal(8,8,'beeper', 8)
+    world.add_pick_obj_goal(9,3,'beeper', 9)
+    world.add_pick_obj_goal(10,5,'beeper', 10)
 
 def random_pick(world):
     l = [3,2,4,1,5]
@@ -49,9 +60,14 @@ def snake(world):
     for x in range(1, 8, 2):
         world.add_wall(x,1,"east")
         world.add_wall(x+1,10,"east")
-
-def double_list(world):
-    pass
+    world.add_pick_obj_goal(1,5, 'apple',  4)
+    world.add_pick_obj_goal(2,5, 'apple', 2 )
+    world.add_pick_obj_goal(3,5, 'apple', 3 )
+    world.add_pick_obj_goal(4,5, 'apple', 1 )
+    world.add_pick_obj_goal(5,5, 'apple', 5 )
+    world.add_pick_obj_goal(6,5, 'apple', 4 )
+    world.add_pick_obj_goal(7,5, 'apple', 1 )
+    world.add_pick_obj_goal(8,5, 'apple', 8 )
 
 def spiral(world):
     for s in range(4):
@@ -79,7 +95,15 @@ def heights(world):
     for x in range(1, 10):
         for y in range(2,10):
             world.add_wall(x,y,"east")
-    
+    world.add_pick_obj_goal(1,6, "beeper", 3 )
+    world.add_pick_obj_goal(2,3, "beeper", 2 )
+    world.add_pick_obj_goal(5,7, "beeper", 5 )
+    world.add_pick_obj_goal(6,2, "beeper", 2 )
+    world.add_pick_obj_goal(8,8, "beeper", 1 )
+    world.add_pick_obj_goal(9,3, "beeper", 4 )
+    world.add_flag_count_goal(4)
+
+
 get_robo = get_robo_builder(levels={
     'jump': jump,
     'corners': corners,
