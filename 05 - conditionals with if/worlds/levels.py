@@ -229,16 +229,20 @@ def flags(world):
 
 def flowers(world):
     world.add_object(2, 1,'strawberry', 10)
-    for x in range(3,9, 2):
+    world.add_object(9, 1,'daisy', 1)
+    world.add_drop_obj_goal(10, 1, 'strawberry',1)
+    for x in range(3,7, 2):
         if random.randrange(2):
             world.add_object( x+1, 1,'daisy', 1)
             world.add_drop_obj_goal( x+2, 1, 'strawberry',1)
-            
     
 
 def multi_flowers(world):
     world.add_object(2, 1,'strawberry', 20)
     count = 0
+    world.add_object( 13, 1,'daisy', 1)
+    world.add_drop_obj_goal( 14, 1, 'strawberry',1)
+    world.add_drop_obj_goal( 15, 1, 'strawberry',1)
     for x in range(3,12,3):
         if random.randrange(2):
             count+=1
