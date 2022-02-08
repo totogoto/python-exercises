@@ -152,16 +152,16 @@ def count_carrots(world):
 
 
 
-    for y in range(h - 1, 2, -1):
-        choice = random.randint(1,3)
-        if choice == 1:
-            world.add_object(1, y, "carrot", 1)
-            nb_carrot += 1
-        elif choice == 2:
-            world.add_object(1, y, "apple", 1)
-            nb_apple += 1
+    # for y in range(h - 1, 2, -1):
+    #     choice = random.randint(1,3)
+    #     if choice == 1:
+    #         world.add_object(1, y, "carrot", 1)
+    #         nb_carrot += 1
+    #     elif choice == 2:
+    #         world.add_object(1, y, "apple", 1)
+    #         nb_apple += 1
     
-    world.add_repoter_goal("I counted {} carrots and {} apples".format(nb_carrot, nb_apple))
+    # world.add_repoter_goal("I counted {} carrots and {} apples".format(nb_carrot, nb_apple))
 
 def wall_street(world):
     choice = random.randint(4,9)
