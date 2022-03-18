@@ -1,6 +1,4 @@
-import re
 import PySimpleGUI as sg
-
 
 layout = [[sg.Text(key='result', font=('Helvetica', 14), size=(15, 1))],
           [sg.Input(key='input')],      
