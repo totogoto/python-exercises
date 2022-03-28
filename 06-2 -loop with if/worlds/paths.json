@@ -1,0 +1,13 @@
+{
+    "robots": [
+      {
+        "x": 9,
+        "y": 2,
+        "_orientation": 2
+      }
+    ],
+    "small_tiles": false,
+    "rows": 10,
+    "cols": 10
+  }
+  
